@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282C33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #FFF;
+  font-family: Fira Code;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.cambio {
+  color: #95EBA8;
+  font-family: Fira Code;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  color: #FFF;
+  font-family: Fira Code;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+input {
+  width: 171px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(217, 217, 217, 0.10);
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  width: 171px;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid #96EB95;
+  background: #96EB95;
+  color: #373737;
+  font-family: Fira Code;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  width: 900px;
+  height: 593px;
+
+}
+
+p {
+  color: #FFF;
+  font-family: Fira Code;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 890px;
+  height: 455px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 150px;
+  height: 44px;
+  margin: 10px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.20);
+}
+
+img {
+  width: 14px;
+  height: 14px;
+}
+
+.coin {
+  color: #FFF;
+  font-family: Fira Code;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.coin-value {
+  color: #FFE713;
+  font-family: Fira Code;
+  font-size: 13px;
+  font-weight: 400;
+}
